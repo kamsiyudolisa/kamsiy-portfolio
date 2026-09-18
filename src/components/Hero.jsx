@@ -30,7 +30,7 @@ function Hero() {
         </h1>
 
         <h2 className="mt-6 text-2xl text-slate-300">
-          CS Student •  Operations & AI Intern • Data Science Researcher 
+          CS Student •  prev healthcare operations and AI intern • Data Science Researcher 
         </h2>
 
         <p className="mt-8 text-lg leading-9 text-slate-300">
