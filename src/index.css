@@ -9,3 +9,17 @@ body {
   font-family: Inter, system-ui, Arial, sans-serif;
   background: #0f172a;
 }
+
+.rai-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.rai-title {
+  background: linear-gradient(110deg, #f9a8d4 10%, #d8b4fe 48%, #ffffff 88%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

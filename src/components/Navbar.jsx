@@ -32,6 +32,10 @@ function Navbar() {
     Projects
   </a>
 
+  <a href="/rai" className="hover:text-pink-300 transition">
+    RAI
+  </a>
+
   <a href="#gallery" className="hover:text-pink-300 transition">
     Gallery
   </a>

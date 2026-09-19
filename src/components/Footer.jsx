@@ -7,9 +7,7 @@ function Footer() {
           © {new Date().getFullYear()} Kamsiyochukwu Udolisa. All rights reserved.
         </p>
 
-        <p className="mt-4 md:mt-0">
-          Built with React, Tailwind CSS & Framer Motion 💜
-        </p>
+      
 
       </div>
     </footer>

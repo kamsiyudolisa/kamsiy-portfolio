@@ -14,10 +14,11 @@ const projects = [
       "Researching payer requirements, documenting messy workflows, supporting AI follow-up tools, and keeping internal healthcare data clean at Lanyard Health.",
   },
   {
-    title: "RAi",
-tools: "React • OpenAI API • JavaScript • Tailwind CSS",
-description:
-  "Built an AI-powered housing assistant that helps residents navigate policies, complete common housing tasks, and access campus resources from one centralized platform.",
+    title: "RAI",
+    tools: "Python • Streamlit • OpenAI API • Pandas",
+    description:
+      "Designed and deployed an AI-powered resident support platform that pairs verified housing guidance with a resident information hub and analytics for RAs.",
+    href: "/rai",
   },
 ];
 
@@ -54,6 +55,15 @@ function Projects() {
               <p className="mt-6 text-slate-300 leading-8">
                 {project.description}
               </p>
+
+              {project.href && (
+                <a
+                  href={project.href}
+                  className="mt-8 inline-flex items-center gap-2 font-semibold text-pink-200 hover:text-white transition"
+                >
+                  Explore the RAI project <span aria-hidden="true">→</span>
+                </a>
+              )}
             </motion.div>
           ))}
         </div>
